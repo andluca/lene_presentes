@@ -12,6 +12,7 @@ export const Container = styled.header<ContainerProps>`
     height: 70px;
     
     && img{
+        min-width: 200px;
         width: 20vw;
         object-fit: cover;
     }
