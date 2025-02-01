@@ -3,10 +3,10 @@
 body {
     margin: 0;
     font-family: "Alice", serif;
+    background-color: #fafafa;
   }
   
   header, footer {
-    background-color: #ffffff;
     color: white;
     text-align: center;
     padding: 1em;
