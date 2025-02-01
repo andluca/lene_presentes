@@ -1,17 +1,20 @@
 import styled from 'styled-components';
+import gift from "../../images/gift.png";
 
 export const Container = styled.div`
     
     .main{
         display: flex;
         justify-content: space-around;
-        padding: 100px 0px 100px 0px;
+        padding: 140px 0px 100px 0px;
         background-color: #FF3991;
+        overflow: hidden;
     }
 
     .main > p{
-        width: 49vw;
+        width: 50vw;
         line-height: 50px;
+        padding-top: 2.3vw;
         font-size: 27px;
         color: #ffffff;
     }
@@ -43,4 +46,14 @@ export const Container = styled.div`
         background-color: #FF3991;
     }
 
+`;
+
+export const GiftImage = styled.div`
+    width: 40vw;
+    height: 400px;
+    background-size: cover;
+    background-image: url(${gift});
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 150px;
 `;

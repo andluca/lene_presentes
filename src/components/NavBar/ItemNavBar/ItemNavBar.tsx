@@ -8,7 +8,7 @@ interface Props {
 }
 
 const ItemNavBar: React.FC<Props> = ({item, rotaAtual, rota}) => {
-    const ativo: boolean = rotaAtual === rota ? true : false;
+    const ativo: boolean = (rotaAtual === rota);
     return(
         <Styled.Container ativo={ativo} rotaAtual={rotaAtual}>
             <a href={rota}>{item}</a>

@@ -1,28 +1,36 @@
-import styled from 'styled-components';
+import styled, { css } from "styled-components";
 
 interface ContainerProps {
-    rotaAtual: string;
+  rotaAtual: string;
 }
 
-export const Container = styled.header<ContainerProps>`
-    background-color: ${props => props.rotaAtual === '/' ? '#FF3991' : '#ffffff'};
+export const Container = styled.header.withConfig({
+  shouldForwardProp: (prop) => !["rotaAtual"].includes(prop),
+})<ContainerProps>`
+  ${({ rotaAtual }) => css`
+    background-color: ${rotaAtual === "/" ? "#FF3991" : "#ffffff"};
     display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 70px;
-    
-    && img{
-        min-width: 200px;
-        width: 20vw;
-        object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+
+    && img {
+      min-width: 150px;
+      width: 15vw;
+      object-fit: contain;
     }
 
-    .secundary{
-        padding-left: 5vw;
-        width: 75vw;
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
+    .secundary {
+      padding-left: 5vw;
+      width: 75vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-
+  `}
 `;

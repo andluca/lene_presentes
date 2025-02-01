@@ -1,8 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import * as Styled from "./styles";
-import PrizeSvg from "../../assets/prize";
-import VisualAssetSvg from "../../assets/visual_asset";
 import InstagramSvg from "../../assets/instagram";
 
 const Home: React.FC = () => {
@@ -10,10 +8,9 @@ const Home: React.FC = () => {
     <Styled.Container>
       <Header/>
       <div className="main">
-        <PrizeSvg/>
-        <p>“Presentear pra mim não é algo supérfluo ou uma questão de poder aquisitivo. Presentear pra mim significa lembrar com carinho, é demonstrar, mesmo que através de uma singela lembrança, que aquela pessoa é importante na sua vida e será sempre lembrada.” - Tuca Neves</p>
+        <Styled.GiftImage/>
+        <p>“Presentear pra mim não é algo supérfluo ou uma questão de poder aquisitivo. Presentear pra mim significa lembrar com carinho, é demonstrar, mesmo que através de uma singela lembrança, que aquela pessoa é importante na sua vida e será sempre lembrada.”<br/> - Tuca Neves</p>
       </div>
-      <VisualAssetSvg/>
       <div className="footer">
         <p className="title">LenePresentes</p>
         <p className="description">A Lene Presentes representa um sonho, o sonho de trazer alegria aos
