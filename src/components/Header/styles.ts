@@ -27,10 +27,30 @@ export const Container = styled.header.withConfig({
 
     .secundary {
       padding-left: 5vw;
-      width: 75vw;
+      width: 76.5vw;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
+
+    a{
+      text-decoration: none;
+    }
   `}
 `;
+
+export const ContactCard = styled.div.withConfig({
+  shouldForwardProp: (prop) => !["rotaAtual"].includes(prop),
+})<ContainerProps>`
+  ${({ rotaAtual }) => css`
+    padding: 16px;
+    border-radius: 16px;
+    background-color: ${ rotaAtual === "/" ? "#ffffff" : "#FF3991"};
+    color: ${ rotaAtual === "/" ? "#FF3991" : "#ffffff"};
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `}
+`
