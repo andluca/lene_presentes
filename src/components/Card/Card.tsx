@@ -13,9 +13,10 @@ const Card: React.FC<CardProps> = ({ imageUrl, title, description, price }) => {
   return (
     <Styled.CardContainer>
       <Styled.CardImagePlaceholder src={imageUrl} />
+      <Styled.PriceContainer><span>R${price.toFixed(2)}</span></Styled.PriceContainer>
       <Styled.CardTitle>{title}</Styled.CardTitle>
       <Styled.CardDescription>{description}</Styled.CardDescription>
-      <Styled.CardButton>Adquira-o (R${price.toFixed(2)})</Styled.CardButton>
+      <Styled.CardButton>Comprar</Styled.CardButton>
     </Styled.CardContainer>
   );
 };
