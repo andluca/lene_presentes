@@ -6,7 +6,7 @@ export const Container = styled.div`
     .main{
         display: flex;
         justify-content: space-around;
-        padding: 140px 0px 100px 0px;
+        padding: 110px 0px 100px 0px;
         background-color: #FF3991;
         overflow: hidden;
     }
