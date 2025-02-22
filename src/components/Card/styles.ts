@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-position: relative;
+  position: relative;
   background: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   padding: 16px;
   text-align: center;
   transition: box-shadow 0.2s ease-in-out;
 
   &:hover {
-    box-shadow: 0 12px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.15);
   }
 `;
 
@@ -61,4 +61,9 @@ export const PriceContainer = styled.div`
   font-size: 20px;
   font-weight: bold;
   font-family: sans-serif;
-`
+`;
+
+export const LinkWrapper = styled.a`
+  text-decoration: none;
+  color: inherit;
+`;
