@@ -22,14 +22,17 @@ export const Container = styled.div.withConfig({
       : ativo
       ? "2px solid #FF3991"
       : "2px solid transparent"};
-    a {
-      font-size: 18px;
-      line-height: 23px;
-      text-decoration: none;
-      font-weight: 300;
-      color: ${rotaAtual === "/"
-        ? "#ffffff"
-        : "#FF3991"};
-    }
+  `}
+`;
+
+export const LinkContainer = styled.a.withConfig({
+  shouldForwardProp: (prop) => !["ativo", "rotaAtual"].includes(prop),
+})<ContainerProps>`
+  ${({ rotaAtual }) => css`
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    font-weight: 300;
+    color: ${rotaAtual === "/" ? "#ffffff" : "#FF3991"};
   `}
 `;
