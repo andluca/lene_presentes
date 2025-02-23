@@ -5,15 +5,15 @@ export const MainContainer = styled.main`
   height: 100%;
   padding-top: 104px;
 
-  .disclaimer{
-        font-size: 26px;
-        line-height: 40px;
-        font-weight: 300;
-        padding: 0px 0px 25px 0px;
-        margin: 0px;
-        text-align: center;
-        color: #FF3991;
-    }
+  .disclaimer {
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 300;
+    padding: 0px 0px 25px 0px;
+    margin: 0px;
+    text-align: center;
+    color: #ff3991;
+  }
 `;
 
 export const PerfumesGrid = styled.div`
