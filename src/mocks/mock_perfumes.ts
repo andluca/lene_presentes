@@ -58,19 +58,19 @@ const perfumesMock: CardProps[] = [
       imageUrl: erbapura,
       title: "Erba Pura Xerjoff",
       description: "Brand Collection 402 Erba Pura Xerjoff 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: dylanblue,
       title: "Dylan Blue",
       description: "Brand Collection 170 Dylan Blue 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: chloe,
       title: "Chloe",
       description: "Brand Collection 177 Chloe 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: two_one_two_rose,
@@ -82,7 +82,7 @@ const perfumesMock: CardProps[] = [
       imageUrl: fame,
       title: "Paco Rabanne Fame",
       description: "Brand Collection 365 Fame Paco Rabanne 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: goodgirl,
@@ -100,7 +100,7 @@ const perfumesMock: CardProps[] = [
       imageUrl: fameblack,
       title: "Paco Rabbanne Fame Black",
       description: "Brand Collection 415 Fame Paco Rabanne 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: myparis,
@@ -124,13 +124,13 @@ const perfumesMock: CardProps[] = [
       imageUrl: heroine,
       title: "212 Heroine",
       description: "Brand Collection 340 212 Heroine 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: heroes,
       title: "212 Heroes",
       description: "Brand Collection 347 212 Heroes 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: jadore,
@@ -172,7 +172,7 @@ const perfumesMock: CardProps[] = [
       imageUrl: famepink,
       title: "Paco Rabanne Fame Pink",
       description: "Brand Collection 378 Fame Pink 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: teddyboy,
@@ -184,7 +184,7 @@ const perfumesMock: CardProps[] = [
       imageUrl: borninroma,
       title: "Born In Roma",
       description: "Brand Collection 391 Born In Roma 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: bluedream,
@@ -196,13 +196,13 @@ const perfumesMock: CardProps[] = [
       imageUrl: baccaratrouge,
       title: "Baccarat Rouge",
       description: "Brand Collection 380 Baccarat Rouge 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: dylanbluefemme,
       title: "Dylan Blue Femme",
       description: "Brand Collection 265 Dylan Blue Femme 25ml",
-      price: 78.90,
+      price: 99.90,
     },
     {
       imageUrl: olympea,
@@ -226,7 +226,7 @@ const perfumesMock: CardProps[] = [
       imageUrl: idoleG,
       title: "Idole G",
       description: "Brand Collection G-238 Idole 80ml",
-      price: 179.90,
+      price: 99.90,
     },
     {
       imageUrl: idole,
