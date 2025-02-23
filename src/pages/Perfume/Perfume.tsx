@@ -21,6 +21,8 @@ const Perfume: React.FC = () => {
               />
             ))}
           </Styled.PerfumesGrid>
+          <Styled.EndLine></Styled.EndLine>
+          <p className="disclaimer">Não encontrou o que procurava? Entre em contato e faça sua encomenda ฅ^•ﻌ•^ฅ</p>
         </Styled.MainContainer>
       </main>
     </>
