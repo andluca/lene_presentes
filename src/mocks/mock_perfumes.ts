@@ -1,6 +1,7 @@
 import { CardProps } from "../components/Card/Card";
 import ladymillion from "../images/parfums/ladymillion.jpeg";
 import lavie from "../images/parfums/lavie.png";
+import scandalG from "../images/parfums/scandalG.webp";
 import scandal from "../images/parfums/scandal.png";
 import erbapura from "../images/parfums/erbapura.png";
 import dylanblue from "../images/parfums/dylanblue.png";
@@ -37,6 +38,31 @@ import sauvageG from "../images/parfums/sauvageG.webp";
 import teddybubble from "../images/parfums/teddybubble.webp";
 import onemillion from "../images/parfums/onemillion.webp";
 import bulgariacqua from "../images/parfums/bulgariacqua.webp";
+import classicvip from "../images/parfums/classicvip.webp";
+import phantom from "../images/parfums/phantom.jpg";
+import prettywomen from "../images/parfums/prettywomen.webp";
+import lavieG from "../images/parfums/lavieG.webp";
+import AmberT from "../images/parfums/AmberT.webp";
+import amoramorT from "../images/parfums/amoramorT.webp";
+import badboyT from "../images/parfums/badboyT.webp";
+import chloeT from "../images/parfums/chloeT.webp";
+import codeT from "../images/parfums/codeT.webp";
+import euphoriaT from "../images/parfums/euphoriaT.webp";
+import fakharT from "../images/parfums/fakharT.webp";
+import giorgiosiT from "../images/parfums/giorgiosiT.webp";
+import goodgirlT from "../images/parfums/goodgirlT.webp";
+import jpgclassicT from "../images/parfums/jpgclassicT.webp";
+import lightblueT from "../images/parfums/lightblueT.webp";
+import rougeroyalT from "../images/parfums/rougeroyalT.webp";
+import twoonetwoviproseT from "../images/parfums/twoonetwoviproseT.webp";
+import durratalaroos from "../images/parfums/durratalaroos.jpg";
+import emporia from "../images/parfums/emporia.webp";
+import fakharlatafa from "../images/parfums/fakharlatafa.webp";
+import theplayer2 from "../images/parfums/theplayer.webp";
+import pureseduction from "../images/parfums/pureseduction.jpg";
+import velvetpetals from "../images/parfums/velvetpetals.jpg";
+
+
 
 const perfumesMock: CardProps[] = [
     {
@@ -46,10 +72,22 @@ const perfumesMock: CardProps[] = [
       price: 78.90,
     },
     {
+      imageUrl: lavieG,
+      title: "La Vie Est Belle G",
+      description: "Brand Collection G-012 La Vie Est Belle 100ml",
+      price: 199.90,
+    },
+    {
       imageUrl: lavie,
       title: "La Vie Est Belle",
       description: "Brand Collection 012 La Vie Est Belle 25ml",
       price: 78.90,
+    },
+    {
+      imageUrl: scandalG,
+      title: "Scandal G",
+      description: "Brand Collection G-136 Scandal 100ml",
+      price: 199.90,
     },
     {
       imageUrl: scandal,
@@ -267,6 +305,139 @@ const perfumesMock: CardProps[] = [
       description: "Brand Collection 167 Bvlgari Aqua 25ml",
       price: 78.90,
     },
+    {
+      imageUrl: classicvip,	
+      title
+      : "Classic Vip",
+      description: "Brand Collection 008 Classic Vip 25ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: phantom,
+      title: "Phantom",
+      description: "Brand Collection 296 Phantom 25ml",
+      price: 99.90,
+    },
+    {
+      imageUrl: prettywomen,
+      title: "CH",
+      description: "Brand Collection 003 CH 25ml",
+      price: 99.90,
+    },
+    {
+      imageUrl: AmberT,
+      title: "Tubete Royal Amber",
+      description: "Brand Collection 442 Tubete R. Amber 30ml",
+      price: 89.90,
+    },
+    {
+      imageUrl: amoramorT,
+      title: "Tubete Amor Amor",
+      description: "Brand Collection 138 Tubete Amor Amor 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: badboyT,
+      title: "Tubete Bad Boy",
+      description: "Brand Collection 181 Tubete Bad Boy 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: chloeT,
+      title: "Tubete Chloe",
+      description: "Brand Collection 177 Tubete Chloe 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: codeT,
+      title: "Tubete Code",
+      description: "Brand Collection 164 Tubete Code 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: euphoriaT,
+      title: "Tubete Euphoria",
+      description: "Brand Collection 097 Tubete Euphoria 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: fakharT,
+      title: "Tubete Fakhar",
+      description: "Brand Collection 440 Tubete Fakhar 30ml",
+      price: 89.90,
+    },
+    {
+      imageUrl: giorgiosiT,
+      title: "Tubete Giorgio Si",
+      description: "Brand Collection 063 Tubete Giorgio Si 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: goodgirlT,
+      title: "Tubete Good Girl",
+      description: "Brand Collection 126 Tubete Good Girl 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: jpgclassicT,
+      title: "Tubete JPG Classic",
+      description: "Brand Collection 171 Tubete JPG Classic 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: lightblueT,
+      title: "Tubete Light Blue",
+      description: "Brand Collection 093 Tubete Light Blue 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: rougeroyalT,
+      title: "Tubete Rouge Royal",
+      description: "Brand Collection 289 Tubete Rouge Royal 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: twoonetwoviproseT,
+      title: "Tubete 212 Vip Rose",
+      description: "Brand Collection 034 Tubete 212 Vip Rose 30ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: durratalaroos,
+      title: "Durrat Al Aroos",
+      description: "Arab Parfum Durrat Al Aroos 85ml",
+      price: 279.90,
+    },
+    {
+      imageUrl: emporia,
+      title: "Emporia",
+      description: "Arab Parfum Emporia 100ml",
+      price: 199.90,
+    },
+    {
+      imageUrl: fakharlatafa,
+      title: "Fakhar Latafa",
+      description: "Arab Parfum Fakhar Latafa Sereia 100ml",
+      price: 299.90,
+    },
+    {
+      imageUrl: theplayer2,
+      title: "The Player 2",
+      description: "Arab Parfum The Player 2 100ml",
+      price: 199.90,
+    },
+    {
+      imageUrl: pureseduction,
+      title: "Pure Seduction",
+      description: "Brand Collection Body Splash Pure Seduction 250ml",
+      price: 94.90,
+    },
+    {
+      imageUrl: velvetpetals,
+      title: "Velvet Petals",
+      description: "Brand Collection Body Splash Velvet Petals 250ml",
+      price: 94.90,
+    }
 
   ];
 export default perfumesMock;
