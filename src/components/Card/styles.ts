@@ -14,7 +14,7 @@ export const CardContainer = styled.div`
   }
 `;
 
-export const CardImagePlaceholder = styled.img`
+export const CardImage = styled.img`
   width: 160px;
   height: 200px;
   object-fit: contain;
