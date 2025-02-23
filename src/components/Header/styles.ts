@@ -33,7 +33,7 @@ export const Container = styled.header.withConfig({
       align-items: center;
     }
 
-    a{
+    a {
       text-decoration: none;
     }
   `}
@@ -45,12 +45,39 @@ export const ContactCard = styled.div.withConfig({
   ${({ rotaAtual }) => css`
     padding: 16px;
     border-radius: 16px;
-    background-color: ${ rotaAtual === "/" ? "#ffffff" : "#FF3991"};
-    color: ${ rotaAtual === "/" ? "#FF3991" : "#ffffff"};
+    background-color: ${rotaAtual === "/" ? "#ffffff" : "#FF3991"};
+    color: ${rotaAtual === "/" ? "#FF3991" : "#ffffff"};
     font-size: 20px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
   `}
-`
+`;
+
+export const ContainerMobile = styled.header`
+  background-color: #ff3991;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 97%;
+  z-index: 9999;
+
+  && img {
+    min-width: 270px;
+    width: 30vw;
+    height: auto;
+    object-fit: contain;
+  }
+  && .inner_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    height: 100%;
+  }
+`;
