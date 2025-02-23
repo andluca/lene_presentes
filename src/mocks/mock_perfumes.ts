@@ -34,6 +34,9 @@ import idole from "../images/parfums/idole.webp";
 import twoonetwoblackG from "../images/parfums/twoonetwoblackG.webp";
 import twoonetwoblack from "../images/parfums/twoonetwoblack.webp";
 import sauvageG from "../images/parfums/sauvageG.webp";
+import teddybubble from "../images/parfums/teddybubble.webp";
+import onemillion from "../images/parfums/onemillion.webp";
+import bulgariacqua from "../images/parfums/bulgariacqua.webp";
 
 const perfumesMock: CardProps[] = [
     {
@@ -245,7 +248,25 @@ const perfumesMock: CardProps[] = [
       title: "212 Vip Black",
       description: "Brand Collection 154 212 Vip Black 25ml",
       price: 78.90,
-    }
+    },
+    {
+      imageUrl: teddybubble,
+      title: "Teddy Bear Bubble Gum",
+      description: "Brand Collection 395 Bubble Gum 25ml",
+      price: 99.90,
+    },
+    {
+      imageUrl: onemillion,
+      title: "One Million",
+      description: "Brand Collection 005 One Million 25ml",
+      price: 78.90,
+    },
+    {
+      imageUrl: bulgariacqua,
+      title: "Bvlgari Aqua",
+      description: "Brand Collection 167 Bvlgari Aqua 25ml",
+      price: 78.90,
+    },
 
   ];
 export default perfumesMock;
