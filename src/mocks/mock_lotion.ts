@@ -17,6 +17,9 @@ import onemillion from "../images/lotions/onemillion.webp";
 import euphoria from "../images/lotions/euphoria.webp";
 import escandal from "../images/lotions/escandal.webp";
 import ladymillion from "../images/lotions/ladymillion.webp";
+import olympea from "../images/lotions/olympea.webp";
+import badboy from "../images/lotions/badboy.webp";
+import amoramor from "../images/lotions/amoramor.jpg";
 
 export const lotionsMock: CardProps[] = [
     {
@@ -127,5 +130,22 @@ export const lotionsMock: CardProps[] = [
         description: "Creme 105 Lady Million 200ml",
         price: 69.90,
     },
-
+    {
+        imageUrl: olympea,
+        title: "Olympea",
+        description: "Creme 087 Olympea 200ml",
+        price: 69.90,
+    },
+    {
+        imageUrl: badboy,
+        title: "Bad Boy",
+        description: "Creme 181 Bad Boy 200ml",
+        price: 69.90,
+    },
+    {
+        imageUrl: amoramor,
+        title: "Amor Amor",
+        description: "Creme 138 Amor Amor 200ml",
+        price: 69.90,
+    }
 ]
