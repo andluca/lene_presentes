@@ -80,9 +80,9 @@ export default function MenuButton() {
                 fontWeight: "500",
                 width:'100px',
               }}
-              href="/lotion"
+              href="/hidratante"
             >
-              Loções
+              Hidratantes
             </a>
           </div>
         </nav>
