@@ -15,7 +15,7 @@ const routes: RouteObject[] = [
     element: <Perfume />,
   },
   {
-    path: "/lotion",
+    path: "/hidratante",
     element: <Lotion />,
   },
   {

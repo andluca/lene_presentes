@@ -11,7 +11,7 @@ const NavBar: React.FC<Props> = ({rotaAtual}) => {
       <Styled.Container>
           <ItemNavBar item='Início' rotaAtual={rotaAtual} rota='/'/>
           <ItemNavBar item='Perfumes' rotaAtual={rotaAtual} rota='/perfume'/>
-          <ItemNavBar item='Loções' rotaAtual={rotaAtual} rota='/lotion'/>
+          <ItemNavBar item='Hidratantes' rotaAtual={rotaAtual} rota='/lotion'/>
       </Styled.Container>
     );
 };
