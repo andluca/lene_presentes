@@ -74,11 +74,11 @@ export default function MenuButton() {
               style={{
                 textDecoration: "none",
                 color: "#fff",
-                borderBottom: currentPath === "/lotion" ? "2px solid #fff" : undefined,
+                borderBottom: currentPath === "/hidratante" ? "2px solid #fff" : undefined,
                 fontSize: "24px",
                 lineHeight: "50px",
                 fontWeight: "500",
-                width:'100px',
+                width:'130px',
               }}
               href="/hidratante"
             >
