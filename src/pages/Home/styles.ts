@@ -2,11 +2,12 @@ import styled from 'styled-components';
 import gift from "../../images/gift.png";
 
 export const Container = styled.div`
-    
+    background-color: #FF3991;
+    height: 100vh;
     .main{
         display: flex;
         justify-content: space-around;
-        padding: 110px 0px 100px 0px;
+        padding: 150px 0px 130px 0px;
         background-color: #FF3991;
         overflow: hidden;
     }
@@ -14,7 +15,7 @@ export const Container = styled.div`
     .main > p{
         width: 50vw;
         line-height: 50px;
-        padding-top: 2.3vw;
+        padding-top: 5vw;
         font-size: 27px;
         color: #ffffff;
     }
@@ -23,27 +24,14 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        color: #FF3991;
+        color: #ffffff;
     }
 
-    .footer > .title{
-        font-size: 37px;
-        line-height: 10px;
-    }
-
-    .footer > .description{
-        font-size: 26px;
-        padding: 0px;
-        margin: 0px;
-        width: 55vw;
-        text-align: center;
-    }
-
-    .footer > .line{
-        margin: 30px 0px -15px 0px;
-        width:93vw;
+    .footer .line{
+        margin: 15px 0px -15px 0px;
+        width: 90%;
         height: 2px;
-        background-color: #FF3991;
+        background-color: #fff;
     }
 `;
 
@@ -88,7 +76,7 @@ export const ContainerMobile = styled.div`
     }
 
     .footer > .line{
-        margin: 30px 0px -15px 0px;
+        margin: 15px 0px -15px 0px;
         width: 90%;
         height: 2px;
         background-color: #FF3991;
@@ -97,7 +85,7 @@ export const ContainerMobile = styled.div`
 
 export const GiftImage = styled.div`
     width: 40vw;
-    height: 400px;
+    height: 500px;
     background-size: cover;
     background-image: url(${gift});
     background-repeat: no-repeat;
@@ -107,7 +95,7 @@ export const GiftImage = styled.div`
 
 export const GiftImageMobile = styled.div`
     width: 90%;
-    height: 400px;
+    height: 500px;
     background-size: cover;
     background-image: url(${gift});
     background-repeat: no-repeat;
