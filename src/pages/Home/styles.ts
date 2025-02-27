@@ -3,7 +3,8 @@ import gift from "../../images/gift.png";
 
 export const Container = styled.div`
     background-color: #FF3991;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     .main{
         display: flex;
         justify-content: space-around;
