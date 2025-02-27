@@ -29,17 +29,10 @@ const Home: React.FC = () => {
         </p>
       </div>
       <div className="footer">
-        <p className="title">LenePresentes</p>
-        <p className="description">
-          A Lene Presentes representa um sonho, o sonho de trazer alegria aos
-          seus entes queridos da melhor forma possível. Importando perfumes e
-          usando a criatividade para fazer kits de presentes é a forma de tornar
-          este sonho cada vez mais real.{" "}
-        </p>
         <div className="line" />
         <a style={{display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none", color: "inherit", paddingBottom: "20px"}} href="https://www.instagram.com/leneloubetpresentes/">
           <p style={{ fontSize: "30px", marginBottom: "0px" }}>ฅ^•ﻌ•^ฅ</p>
-          <InstagramSvg style={{ cursor: "pointer" }} />
+          <InstagramSvg fill={isMobile ? '#FF3991' : '#ffffff'} style={{ cursor: "pointer" }} />
         </a>
       </div>
     </Container>
