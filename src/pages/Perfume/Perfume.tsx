@@ -19,6 +19,7 @@ const Perfume: React.FC = () => {
                   description={item.description}
                   price={item.price}
                   imageUrl={item.imageUrl}
+                  promotion={item.promotion}
                 />
             ))}
           </Styled.PerfumesGrid>

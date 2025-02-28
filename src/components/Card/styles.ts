@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
   position: relative;
+  overflow: hidden;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
@@ -67,3 +68,21 @@ export const LinkWrapper = styled.a`
   text-decoration: none;
   color: inherit;
 `;
+
+export const PromotionalBand = styled.div`
+  position: absolute;
+  top: -100px;
+  left: -105px;
+  font-size: 20px;
+  padding: 80px 56px;
+  background-color: #FFC107 ;
+  transform: rotate(-45deg);
+
+  span{
+    position: relative;
+    display: flex;
+    top: 62px;
+    right:1.5px;
+    color: #fff;
+  }
+`
