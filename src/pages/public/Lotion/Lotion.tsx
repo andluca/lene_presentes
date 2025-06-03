@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../../components/Header/Header";
+import Header from "../../../components/Header/Header";
 import * as Styled from "./styles";
-import Card from "../../components/Card/Card";
+import Card from "../../../components/Card/Card";
 import { lotionsMock } from "../../mocks/mock_lotion";
 
 const Perfume: React.FC = () => {

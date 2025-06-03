@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../../components/Header/Header";
+import Header from "../../../components/Header/Header";
 import * as Styled from "./styles";
 import perfumesMock from "../../mocks/mock_perfumes";
-import Card from "../../components/Card/Card";
+import Card from "../../../components/Card/Card";
 
 
 const Perfume: React.FC = () => {

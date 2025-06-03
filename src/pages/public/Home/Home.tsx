@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../../components/Header/Header";
+import Header from "../../../components/Header/Header";
 import * as Styled from "./styles";
-import InstagramSvg from "../../icons/instagram";
+import InstagramSvg from "../../../icons/instagram";
 import { useMediaQuery } from "react-responsive";
 
 const Container: React.FC<React.PropsWithChildren<{}>> = (props) => {
