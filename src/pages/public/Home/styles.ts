@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import gift from "../../images/gift.png";
+import gift from "../../../images/gift.png";
 
 export const Container = styled.div`
     background-color: #FF3991;
