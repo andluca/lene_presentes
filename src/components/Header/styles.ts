@@ -81,3 +81,10 @@ export const ContainerMobile = styled.header`
     height: 100%;
   }
 `;
+
+export const RightContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+`;
