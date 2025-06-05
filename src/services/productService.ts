@@ -1,4 +1,4 @@
-import { CreateProductDTO, ProductResponse } from "../models/Product";
+import { CreateProductDTO, DeleteProductResponse, ProductResponse } from "../models/Product";
 import api from "./api";
 
 export const listProducts = async (category?: string): Promise<ProductResponse[]> => {
@@ -23,3 +23,7 @@ export const createProduct = async (data: CreateProductDTO): Promise<ProductResp
   });
   return response.data;
 };
+
+export const deleteProductRequest = async (id: string): Promise<DeleteProductResponse> => {
+  return await api.delete(`/products/${id}/`);
+}

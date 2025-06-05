@@ -6,7 +6,9 @@ export interface ProductResponse {
   image_url: string;
 }
 
-
+export interface DeleteProductResponse {
+  message: string;
+}
 
 export interface CreateProductDTO {
   name: string;
