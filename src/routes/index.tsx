@@ -1,27 +1,7 @@
-import { createBrowserRouter, RouteObject } from "react-router-dom";
-import Home from "../pages/Home/Home";
-import Perfume from "../pages/Perfume/Perfume";
-import Lotion from "../pages/Lotion/Lotion";
-import Basket from "../pages/Basket/Basket";
+import { createBrowserRouter } from 'react-router-dom';
+import { publicRoutes } from './publicRoutes';
+import { privateRoutes } from './privateRoutes';
 
-
-const routes: RouteObject[] = [
-  {
-    path: "/",
-    element: <Home />, 
-  },
-  {
-    path: "/perfume",
-    element: <Perfume />,
-  },
-  {
-    path: "/hidratante",
-    element: <Lotion />,
-  },
-  {
-    path: "/basket",
-    element: <Basket />,
-  }
-];
+const routes = [...publicRoutes, ...privateRoutes];
 
 export const router = createBrowserRouter(routes);

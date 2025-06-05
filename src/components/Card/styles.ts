@@ -86,3 +86,30 @@ export const PromotionalBand = styled.div`
     color: #fff;
   }
 `
+
+export const DeleteButton = styled.button`
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: #ffe3ef;
+  }
+
+  svg {
+    width: 22px;
+    height: 22px;
+    color: #ff4b9f;
+  }
+`;
